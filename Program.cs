@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace DIO.Aritimeticos
+namespace DIO.Aritmeticos
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Desafio DIO!");
+            
+            Media.CalculaMedia();
+                       
         }
     }
 }
