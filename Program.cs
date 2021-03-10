@@ -13,7 +13,7 @@ namespace DIO.Aritmeticos
                 Console.WriteLine("Escolha as opções:");
                 Console.WriteLine("1 - Opção Cálculo de Média.");
                 Console.WriteLine("2 - Opção Cálculo de Crescimento Populacional.");
-
+                Console.WriteLine("3 - Opção Cálculo Bazinga.");
                 Console.WriteLine("6 - Sair.");
 
                 int opcao = Convert.ToInt32(Console.ReadLine());
@@ -25,6 +25,10 @@ namespace DIO.Aritmeticos
                         break;
                     case 2:
                         CrescimentoPopulacional.CalculaCrescimentoPopulacional();
+                        break;
+
+                    case 3:
+                        Bazinga.CalculoBazinga();
                         break;
 
                     case 6:
