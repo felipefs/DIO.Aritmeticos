@@ -15,6 +15,7 @@ namespace DIO.Aritmeticos
                 Console.WriteLine("2 - Opção Cálculo de Crescimento Populacional.");
                 Console.WriteLine("3 - Opção Cálculo Bazinga.");
                 Console.WriteLine("4 - Opção Cálculo Tempo de um Evento.");
+                Console.WriteLine("5 - Opção Cálculo Comunicação Piralândia.");
                 Console.WriteLine("6 - Sair.");
 
                 int opcao = Convert.ToInt32(Console.ReadLine());
@@ -34,6 +35,10 @@ namespace DIO.Aritmeticos
 
                     case 4:
                         TempoEvento.CalculaTempoDeUmEvento();
+                        break;
+
+                    case 5:
+                        ComunicacaoPiralandia.Traduz();
                         break;
 
                     case 6:
